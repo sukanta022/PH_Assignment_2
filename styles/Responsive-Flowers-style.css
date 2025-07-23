@@ -39,6 +39,16 @@ header{
     color: rgba(137, 135, 161, 1);
 }
 
+.color-E95A08{
+    color: rgba(233, 90, 8, 1);
+}
+
+.description{
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.4rem;
+    margin-top: 15px;
+}
+
 .display-flex{
     display: flex;
 }
@@ -57,5 +67,30 @@ header{
 .item{
     list-style: none;
     margin-right: 50px;
+}
+
+.item-margin-remove{
+    margin-right: 0;
+}
+
+/* banner styles */
+.banner{
+    align-items: flex-end;
+    margin-top: 220px;
+}
+.banner-content{
+    width: 60%;
+}
+.banner-content-head{
+    color: rgba(0, 0, 0, 1);
+    font-weight: bold;
+    font-size: 4rem;
+}
+.banner-img{
+    width: 40%;
+}
+
+.banner-content-description{
+    padding-right: 100px;
 }
 
