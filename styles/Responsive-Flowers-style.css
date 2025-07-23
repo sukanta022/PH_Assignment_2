@@ -23,3 +23,39 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* shared styles */
+
+header{
+    max-width: 1440px;
+    margin: 25px auto;
+}
+
+.color-252432{
+    color: rgba(37, 36, 50, 1);
+}
+
+.color-8987A1{
+    color: rgba(137, 135, 161, 1);
+}
+
+.display-flex{
+    display: flex;
+}
+
+/* nav styles */
+.nav{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-items{
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    list-style: none;
+    margin-right: 50px;
+}
+
