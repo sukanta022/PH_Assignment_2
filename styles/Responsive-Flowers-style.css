@@ -103,6 +103,7 @@ header,main{
 .plants{
     text-align: center;
     margin-top: 100px;
+    margin-bottom: 150px;
 }
 
 .plants-head{
@@ -155,8 +156,39 @@ header,main{
     cursor: pointer;
 }
 
+/* plants lover design */
+.plants-lover{
+    gap: 120px;
+    justify-content: flex-start;
+    align-items: center;
+    justify-content: center;
+}
 
+.plants-lover-img{
+    background-image: url(../assets/flower-store.png);
+    height: 540px;
+    width: 550px;
+}
 
+.badge{
+    margin-top: -515px;
+    margin-left: -27px;
+    transform: scale(0.25);
+} 
+
+.plants-lover-content{
+    margin-left: -30px;
+    margin-top: 50px;
+}
+
+.plants-lover-head{
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.description li{
+    margin: 30px 20px;
+}
 /* responsive for small device */
 @media screen and (max-width:576px){
     /* nav style */
@@ -265,7 +297,7 @@ header,main{
         margin-bottom: 15px;
     }
     .plants-description{
-        font-size: 0.9rem;
+        font-size: 0.875rem;
     }
     .card-container{
         grid-template-columns: repeat(4,1fr);
