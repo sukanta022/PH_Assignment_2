@@ -62,6 +62,14 @@ header,section, footer{
     transform: scale(1.05);
     font-weight: bold;
 }
+
+.visit:hover{
+    background: linear-gradient(#e9d022,#e60b09);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
 /* nav styles */
 .nav{
     justify-content: space-between;
@@ -76,6 +84,10 @@ header,section, footer{
 .item{
     list-style: none;
     margin-right: 50px;
+}
+
+.item a , .item-cart a{
+    text-decoration: none;
 }
 
 .item-cart{
