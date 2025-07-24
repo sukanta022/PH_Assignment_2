@@ -233,16 +233,16 @@ header,main{
 
     /* plants style */
 
-    .plants{
+    .plants, .plants-lover-content{
         margin-top: 65px;
         padding: 0 16px;
         width: calc(100% - 32px);
     }
-    .plants-head{
+    .plants-head,.plants-lover-head{
         font-size: 1.5rem;
         margin-bottom: 15px;
     }
-    .plants-description{
+    .plants-description, .description li{
         padding: 0;
         font-size: 0.875rem;
     }
@@ -255,6 +255,34 @@ header,main{
     }
     .card img{
         height: 300px;
+    }
+
+
+    /* plants lover style */
+    .plants-lover{
+        flex-direction: column;
+        margin-top: -110px;
+        gap: 0;
+    }
+    .badge{
+        display: none;
+    }
+    .plants-lover-img{
+        width: 100%;
+        scale: 0.92;
+        background-position: center;
+    }
+    .plants-lover-content{
+        margin-left: 0;
+        margin-top: 12px; 
+    }
+    .plants-lover-br{
+        display: none;
+    }
+    .description li{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 25px;
     }
 }
 @media screen and (min-width:576px) and (max-width:992px){
@@ -286,17 +314,16 @@ header,main{
     }
     
     /* plants style */
-    .plants{
+    .plants, .plants-lover{
         margin-top: 50px;
         padding: 0 25px;
         width: calc(100% - 50px);
-
     }
-    .plants-head{
+    .plants-head, .plants-lover-head{
         font-size: 1.8rem;
         margin-bottom: 15px;
     }
-    .plants-description{
+    .plants-description, .description li{
         font-size: 0.875rem;
     }
     .card-container{
@@ -309,6 +336,27 @@ header,main{
     .card img{
         height: 300px;
     }
+
+    /* plants lover style */
+    .plants-lover{
+        gap: 0;
+        margin-top: -130px;
+    }
+    .plants-lover-img{
+        scale: 0.8;
+        width: 100%;
+        background-position: center;
+    }
+    .badge{
+        display: none;
+    }
+    .plants-lover-content{
+        margin-left:-20px;
+    }
+    .plants-lover-head{
+        margin-top: -20px;
+    }
+    
 }
 @media screen and (min-width:992px) and (max-width:1460px){
     header,main{
