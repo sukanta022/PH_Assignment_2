@@ -26,7 +26,7 @@
 
 /* shared styles */
 
-header,section{
+header,section, footer{
     max-width: 1440px;
     margin: 25px auto;
 }
@@ -299,6 +299,26 @@ input[type="email"]{
     cursor: pointer;
 }
 
+/* footer design */
+.footer{
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.links-item{
+    list-style: none;
+    margin-bottom: 26px;
+}
+.links-item a{
+    text-decoration: none;
+    color: rgba(107, 114, 128, 1);
+}
+.visit-icon{
+    width: 220px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -180px;
+}
 /* responsive for small device */
 @media screen and (max-width:576px){
     /* nav style */
