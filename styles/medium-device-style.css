@@ -1,0 +1,108 @@
+@media screen and (min-width:576px) and (max-width:992px){
+    .nav{
+        padding:0 15px;
+        width: calc(100% - 30px);
+    }
+    .banner{
+        margin-top: 30px;
+        padding:0 25px;
+        width: calc(100% - 50px);
+    }
+    .logo{
+        scale: 0.8;
+    }
+    .nav-items{
+        scale: 0.8;
+        margin-left:  50px;
+    }
+
+    .banner-content-head{
+        font-size: 2rem;
+    }
+    .banner-img{
+        width: 50%;
+    }
+    .banner-content-description{
+        font-size: 0.9rem;
+    }
+    
+    /* plants style */
+    .plants, .plants-lover,.latest-deal, .footer{
+        margin-top: 50px;
+        padding: 0 25px;
+        width: calc(100% - 50px);
+    }
+    .plants-head, .plants-lover-head{
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+    .plants-description, .description li{
+        font-size: 0.875rem;
+    }
+    .card-container{
+        grid-template-columns: repeat(4,1fr);
+        margin-top: 30px;
+    }
+    .add-cart{
+        padding: 20px 20px;
+    }
+    .card img{
+        height: 300px;
+    }
+
+    /* plants lover style */
+    .plants-lover{
+        gap: 0;
+        margin-top: -130px;
+    }
+    .plants-lover-img{
+        scale: 0.8;
+        width: 100%;
+        background-position: center;
+    }
+    .badge{
+        display: none;
+    }
+    .plants-lover-content{
+        margin-left:-20px;
+    }
+    .plants-lover-head{
+        margin-top: -20px;
+    }
+
+    /* latest deal style */
+    .discount-offer{
+        margin-top: 50px;
+    }
+    /* join section style */
+    .join{
+        height: 300px;
+        margin-top: 100px;
+    }
+    .join-request{
+        font-size: 1.8rem;
+    }
+    input[type="email"]{
+        width: 300px;
+        height: 40px;
+        padding-left: 10px;
+        font-size: 0.8rem;
+        border: none;
+    }
+    .subscribe{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* footer style */
+    .footer{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .visit-icon{
+        margin: 0 auto;
+    }
+    .footer-description{
+        font-size: 1.1rem;
+    }  
+}
