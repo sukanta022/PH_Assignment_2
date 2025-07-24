@@ -173,7 +173,7 @@ header,section, footer{
 .badge{
     margin-top: -515px;
     margin-left: -27px;
-    transform: scale(0.25);
+    animation: spin 3s linear infinite;
 } 
 
 .plants-lover-content{
@@ -188,6 +188,15 @@ header,section, footer{
 
 .description li{
     margin: 30px 20px;
+}
+
+@keyframes spin{
+    from{
+        transform: scale(0.25) rotate(0deg);
+    }
+    to{
+        transform: scale(0.25) rotate(360deg);
+    }
 }
 
 /* latest deal design */
