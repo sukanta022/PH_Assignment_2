@@ -98,7 +98,7 @@ header,section, footer{
 /* banner styles */
 .banner{
     align-items: flex-end;
-    margin-top: 220px;
+    margin-top: 240px;
 }
 .banner-content{
     width: 60%;
