@@ -468,6 +468,20 @@ input[type="email"]{
         padding-left: 15px;
         padding-right: 15px;
     }
+    /* footer style */
+    .footer{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 10px;
+        padding-left: 16px;
+    }
+    .visit-icon{
+        margin: 0;
+    }
+    .footer-description{
+        font-size: 1rem;
+    }
 }
 @media screen and (min-width:576px) and (max-width:992px){
     .nav{
@@ -498,7 +512,7 @@ input[type="email"]{
     }
     
     /* plants style */
-    .plants, .plants-lover,.latest-deal{
+    .plants, .plants-lover,.latest-deal, .footer{
         margin-top: 50px;
         padding: 0 25px;
         width: calc(100% - 50px);
@@ -563,6 +577,18 @@ input[type="email"]{
     .subscribe{
         padding-left: 20px;
         padding-right: 20px;
+    }
+    /* footer style */
+    .footer{
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 50px;
+    }
+    .visit-icon{
+        margin: 0 auto;
+    }
+    .footer-description{
+        font-size: 1.1rem;
     }
     
 }
