@@ -57,6 +57,11 @@ header,section, footer{
     display: flex;
 }
 
+.btn-primary:hover{
+    background-image: linear-gradient(#e9d022,#e60b09);
+    transform: scale(1.05);
+    font-weight: bold;
+}
 /* nav styles */
 .nav{
     justify-content: space-between;
